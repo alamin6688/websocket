@@ -1,0 +1,23 @@
+{
+  "name": "websocket-chat",
+  "version": "1.0.0",
+  "description": "Basic WebSocket chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node init && node server.js",
+    "dev": "node init && nodemon server.js"
+  },
+  "keywords": [
+    "websocket",
+    "chat"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
